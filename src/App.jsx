@@ -9,9 +9,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Start />,
     },
-], {
-    basename: "/music-diary"
-});
+]);
 
 const App = () => {
     return (
